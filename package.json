@@ -1,0 +1,19 @@
+{
+  "name": "@alliedpayment/alliedjs",
+  "version": "1.0.1",
+  "description": "Facade used to HTTP/s request to Allied's API",
+  "main": "alliedjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wickdninja",
+  "license": "MIT",
+  "dependencies": {
+    "@alliedpayment/authenticator": "^1.0.0",
+    "@alliedpayment/colorized-logger": "^1.0.1",
+    "@alliedpayment/http-client": "^1.0.0"
+  },
+  "engines": {
+    "node": "9.x"
+  }
+}

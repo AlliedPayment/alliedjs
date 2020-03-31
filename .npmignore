@@ -1,0 +1,4 @@
+buildspec.yml
+.npmrc
+samples/
+**/**/*sample.js
