@@ -30,7 +30,21 @@ const main = async () => {
   try {
     const res = await allied.getVersion();
     log.info(`response status code ${res.status}`);
-    return res.data;
+    log.info('version', res.data);
+    /***
+     * logged to console
+ version: {
+  "$id": "1",
+  "Major": #,
+  "Minor": #,
+  "Revision": 10,
+  "Build": #####,
+  "MachineName": "##-#######",
+  "LocalUri": "http://api.alliedpayment.com/",
+  "RemoteUri": "https://api.alliedpayment.com/",
+  "Source": ""
+}
+     */
   } catch (error) {
     log.error('failed to get version', error);
   }
