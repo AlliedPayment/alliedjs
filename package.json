@@ -1,6 +1,6 @@
 {
   "name": "@alliedpayment/alliedjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Facade used to HTTP/s request to Allied's API",
   "main": "alliedjs.js",
   "scripts": {
