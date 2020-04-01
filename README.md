@@ -30,7 +30,7 @@ const main = async () => {
   try {
     const res = await allied.getVersion();
     log.info(`response status code ${res.status}`);
-    log.info('version', res.data);
+    log.info('version: ', res.data);
     /***
      * logged to console
  version: {
