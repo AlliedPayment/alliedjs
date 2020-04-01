@@ -1,6 +1,6 @@
 {
   "name": "@alliedpayment/alliedjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Facade used to HTTP/s request to Allied's API",
   "main": "alliedjs.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "@alliedpayment/authenticator": "^1.0.0",
-    "@alliedpayment/colorized-logger": "^1.0.1",
-    "@alliedpayment/http-client": "^1.0.0"
+    "@alliedpayment/colorized-logger": "^1.0.3",
+    "@alliedpayment/http-client": "^1.0.2"
   },
   "engines": {
     "node": "9.x"
