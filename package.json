@@ -14,7 +14,7 @@
     "@alliedpayment/http-client": "^1.0.2"
   },
   "engines": {
-    "node": "9.x"
+    "node": "10.x"
   },
   "prettier": {
     "singleQuote": true
